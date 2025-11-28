@@ -1,0 +1,188 @@
+.right ul{
+    display: flex;
+    gap: 20px;
+}
+.right li{
+    list-style: none;
+}
+.right a{
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    justify-content:space-between ;
+    align-items: baseline;
+    position: relative;
+    background: url(plant.jpg);
+    background-size: cover;
+    height: 300px;
+}
+.content{
+    position: absolute;
+    top: 100px;
+    margin-left: 560px;
+    font-size: large;
+    font-weight: 200;
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    margin-left: 200px;
+}
+.right{
+    margin-left: 300px;
+}
+.child1{
+    display: flex;
+    gap: 20px;
+}
+.child1 i{
+    margin-top: 20px;
+}
+.child2{
+    display: flex;
+    gap: 20px;
+}
+.child2 i{
+    margin-top: 20px;
+}
+.child3{
+    display: flex;
+    gap: 20px;
+}
+.child3 i{
+    margin-top: 20px;
+}
+.right {
+    gap: 30px;
+}
+.follow{
+    background-color: bisque;
+    height: 500px;
+}
+
+.follow h1{
+    margin-top: 100px;
+    text-align: center;
+    color: ;
+}
+.follow ul{
+    list-style: none;
+    display:flex;  
+    gap: 30px;
+    margin-top: 40px;
+    margin-left: 480px;  
+}
+.Perfect button{
+    height: 30px;
+    width: 60px;
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 610px;
+    color: aquamarine;
+}
+.Perfect{
+    background-image: url(discount.jpg);
+    height: 200px;
+    position: relative;
+    margin-top: 50px;
+}
+.Perfect1{
+    position: absolute;
+}
+.Perfect1 h2 {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 450px;
+}
+.Perfect1 p{
+    color: white;
+    margin-left: 450px;
+}
+
+@media (max-width: 1024px) {
+    .navbar {
+        padding: 15px 30px;
+    }
+
+    .navbar ul {
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    .body h1 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .parent {
+        flex-direction: column;
+        gap: 30px;
+        padding: 30px;
+    }
+
+    .parent .right {
+        width: 100%;
+    }
+}
+
+/* ========================================================= */
+/* Mobile (≤ 767px) */
+@media (max-width: 767px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        gap: 10px;
+        padding: 0;
+    }
+
+    .content h1 {
+        font-size: 24px;
+    }
+
+    .body h1 {
+        font-size: 20px;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .parent {
+        flex-direction: column;
+        padding: 15px;
+        gap: 20px;
+    }
+
+    .parent .left, .parent .right {
+        width: 100%;
+        text-align: center;
+    }
+
+    form textarea {
+        width: 100%;
+    }
+
+    .follow h2 {
+        font-size: 18px;
+    }
+
+    .follow p {
+        font-size: 14px;
+    }
+
+    .follow button {
+        width: 100%;
+    }
+
+    .follow h1 {
+        margin-left: 0;
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- <form id="myForm">
+      <div>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required />
+        <div id="usernameError" class="error"></div>
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"  />
+        <div id="emailError" class="error"></div>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+
+    <script>
+      // Get the form and inputs
+      const form = document.getElementById("myForm");
+      const usernameInput = document.getElementById("username");
+      const emailInput = document.getElementById("email");
+
+      // Get error message elements
+      const usernameError = document.getElementById("usernameError");
+      const emailError = document.getElementById("emailError");
+
+      // Function to validate username
+      function validateName() {
+        if (NameInput.value.trim() === "") {
+          NameError.textContent = "Name is required.";
+          return false;
+        } else {
+          NameError.textContent = "";
+          return true;
+        }
+      }
+
+      // Function to validate email
+      function validateEmail() {
+        const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (emailInput.value.trim() === "") {
+          emailError.textContent = "Email is required.";
+          return false;
+        } else if (!emailPattern.test(emailInput.value)) {
+          emailError.textContent = "Please enter a valid email.";
+          return false;
+        } else {
+          emailError.textContent = "";
+          return true;
+        }
+      }
+
+      // Add input event listeners to dynamically validate on user input
+      usernameInput.addEventListener("input", validateUsername);
+      emailInput.addEventListener("input", validateEmail);
+
+      // Add submit event listener to validate before form submission
+      form.addEventListener("submit", function (event) {
+        event.preventDefault(); // Prevent form from submitting if validation fails
+        if (validateUsername() && validateEmail()) {
+          alert("Form Submitted Successfully!");
+          form.reset(); // Reset the form
+        }
+      });
+    </script>
+  </body>
+form>
+            <table>
+                <tr>
+                    <td>
+                        Name:
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Email:
+                    </td>
+                    <td>
+                        <input type="number">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Phone:
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Message:
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Address:
+                    </td>
+                    <td>
+                        <textarea cols="48" rows="5"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                    <input type="submit" value="submit">
+                    </td>
+                </tr>
+            </table>
+        </form>
+        </div>
+        </div>
+         -->
+<h1 class="animated-header">Welcome to My Website</h1>
+</body>
+</html>

@@ -1,0 +1,289 @@
+.right ul{
+    display: flex;
+    gap: 20px;
+}
+.right li{
+    list-style: none;
+}
+.right a{
+    text-decoration: whitesmoke;
+    color: white;
+}
+.navbar{
+    display: flex;
+    justify-content:space-around ;
+    align-items: baseline;
+    position: relative;
+    background: url(About.jpg);
+    background-size: cover;
+    height: 300px;
+}
+.right i{
+    color: aliceblue;
+}
+.left img{
+    font-size: 50px;
+}
+.content{
+    text-align: center;
+    position: absolute;
+    margin-top: 100px;
+    color: white;
+}
+.strive{
+    display: flex;
+    justify-content:space-around;
+}
+.strive1 img{
+    height: 500px;
+    margin-left: 200px;   
+}
+
+.strive2 h1{
+    margin-top: 50px;
+    margin-right: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.strive2{
+    margin-top: 90px;
+}
+.Core{
+    background-color: aquamarine;
+    padding: 40px;
+    height: 700px;
+}
+.core1{
+    text-align: center;
+}
+.parent{
+    display: flex; 
+    /* /* /* justify-items: baseline; */
+    justify-content: space-around;
+    margin-top: 100px; 
+    
+}
+.cardleft i{
+    font-size: 40px;
+    margin-left: 150px;
+}
+.cardright{
+display: flex;
+flex-direction: column;
+margin-left: 60px;
+top: 10px; 
+}
+.cardleft2 i{
+    font-size: 40px;
+    margin-left: 150px;
+}
+.cardright2{
+display: flex;
+flex-direction: column;
+margin-left: 60px;
+top: 10px;
+}
+.cardleft3 i{
+    font-size: 40px;
+    margin-left: 150px;
+}
+.cardright3{
+display: flex;
+flex-direction: column;
+margin-left: 60px;
+top: 10px;
+
+}
+.parent2{
+    display: flex; 
+    /* /* /* justify-items: baseline; */
+    justify-content: space-around;
+    margin-top: 100px; 
+    
+}
+.wrapper{
+    margin-top: 300px;
+    justify-content: space-around;
+    display: flex;
+}
+.right img{
+    height: 400px;
+    
+}
+.bold1{
+display: flex;
+gap: 10px;
+}
+.bold2{
+display: flex;
+gap: 10px;
+}
+.bold3{
+display: flex;
+gap: 10px;
+}
+.bold4{
+display: flex;
+gap: 10px;
+}
+.bold1 i{
+    margin-top: 15px;
+}
+.bold2 i{
+    margin-top: 15px;
+}
+.bold3 i{
+    margin-top: 15px;
+}
+.bold4 i{
+    margin-top: 15px;
+}
+.two{
+    margin-top: 180px;
+    margin-right: 200px;
+}
+.bold{
+    margin-top: 55px;
+}
+.foot{
+    width: auto;
+    height: 350px;
+    background-image: url('pot.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-top: 80px;
+}
+.foot1{
+        color:black;
+        margin-top: 80px;
+        position: absolute;
+        text-align: center;
+        margin-left: 370px;
+
+}
+.foot button{
+    width: 150px;
+    height: 40px;
+    color: #0f0f0f;
+    background-color: lightgreen;
+    border: none;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 0px;
+
+}
+.left1 img{
+    height: 40px;
+}
+.Urban{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+.right a{
+    color: white;
+}
+.right i{
+    color: white;
+}
+    
+    
+@media (max-width: 1024px) {
+    .navbar, .Urban {
+        padding: 15px 30px;
+    }
+
+    .navbar ul, .Urban ul {
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    .strive {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px;
+    }
+
+    .parent, .parent2 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .wrapper {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .wrapper img {
+        max-width: 90%;
+    }
+}
+
+/* ========================================================= */
+/* Mobile (≤ 767px) */
+@media (max-width: 767px) {
+    .navbar, .Urban {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px;
+    }
+
+    .navbar ul, .Urban ul {
+        flex-direction: column;
+        gap: 10px;
+        padding: 0;
+    }
+
+    .content h1 {
+        font-size: 24px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .strive {
+        padding: 20px;
+    }
+
+    .strive img {
+        width: 100%;
+        height: auto;
+    }
+
+    .parent, .parent2 {
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .cardleft, .cardleft2, .cardleft3 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .wrapper {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .foot h1 {
+        font-size: 20px;
+    }
+
+    .foot button {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .Urban {
+        text-align: center;
+    }
+
+    .Urban p {
+        margin: 20px 0 0 0;
+    }
+}

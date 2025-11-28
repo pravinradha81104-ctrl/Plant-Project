@@ -1,0 +1,188 @@
+.right ul{
+    display: flex;
+    gap: 20px;
+}
+.right li{
+    list-style: none;
+}
+.right a{
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    justify-content:space-between ;
+    align-items: baseline;
+}
+.Shop{
+    background-image: url(shop.jpg);
+    height: 250px;
+    position: relative;
+}
+.Shop1{
+    position: absolute;
+}
+.Shop1 h1{
+    text-align: center;
+    color: white;
+    margin-left: 600px;
+    margin-top: 1000px;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.content p{
+    margin-top: 50px;
+    margin-left: 150px;
+    font-size: 15px;
+}
+.parent{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.parent2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.card4 img{
+    height: 300px;
+}
+.card6 img{
+    height: 300px;
+}
+.foot{
+    width: auto;
+    height: 350px;
+    background-image: url('pot.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-top: 80px;
+}
+.foot1{
+        color:black;
+        margin-top: 80px;
+        position: absolute;
+        text-align: center;
+        margin-left: 370px;
+
+}
+.foot button{
+    width: 150px;
+    height: 40px;
+    color: #0f0f0f;
+    background-color: lightgreen;
+    border: none;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 0px;
+
+}
+.left img{
+    height: 40px;
+}
+.Urban{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+.content{
+    display: flex;
+}
+.right select{
+    margin-top: 50px;
+    margin-left: 700px;
+    border: 1rem;
+}
+
+
+@media (max-width: 1024px) {
+    .navbar, .Urban {
+        padding: 15px 30px;
+    }
+
+    .navbar ul, .Urban ul {
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    .Shop h1 {
+        font-size: 32px;
+    }
+
+    .content {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .parent, .parent2 {
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .parent div, .parent2 div {
+        max-width: 45%;
+    }
+}
+
+/* ========================================================= */
+/* Mobile (≤ 767px) */
+@media (max-width: 767px) {
+    .navbar, .Urban {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px;
+    }
+
+    .navbar ul, .Urban ul {
+        flex-direction: column;
+        gap: 10px;
+        padding: 0;
+    }
+
+    .Shop h1 {
+        font-size: 24px;
+        margin: 30px 0;
+    }
+
+    .content {
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .parent, .parent2 {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+        gap: 15px;
+    }
+
+    .parent div, .parent2 div {
+        max-width: 100%;
+    }
+
+    .foot h1 {
+        font-size: 20px;
+    }
+
+    .foot button {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .Urban {
+        text-align: center;
+        align-items: center;
+    }
+
+    .Urban p {
+        margin-top: 20px;
+    }
+}
+

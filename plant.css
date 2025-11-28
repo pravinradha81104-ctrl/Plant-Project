@@ -1,0 +1,378 @@
+/* /* .right ul{
+    display: flex;
+    gap: 40px;
+}
+.right a{
+    text-decoration: none;
+}
+.right li{
+    list-style: none;
+    align-items: baseline;
+    background-color: white;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+} */
+/* .content{
+    margin-top: 95px;
+    text-align: center;
+    padding-top: 100px;
+    
+}
+.content2 {
+    margin-bottom: 100px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-size: larger;
+    
+}
+button{
+    width: auto;
+    height: auto;
+    padding right: 15px;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background-color: #009688;
+    color:white;
+    /* align-items: center; */
+/* } */ 
+/* .left{ */
+    /* width: 100%;
+    height: 250vh;
+    /* background-image: linear-gradient(
+        rgba(0, 0, 0, 0.75), 
+        rgba(0, 0, 0, 0.75)
+    ), url('headset.jpg'); */
+    /* background-image: url('plant.jpg');
+    background-size: cover;
+    background-position: center;
+    position: static;
+} */ 
+/* .img img{
+    width: 60px;
+    height: auto;
+    justify-content: center;
+}
+.img{
+    margin-bottom: 30px;
+    padding: 70px;
+}
+.img2{
+    padding-right: 40px;
+} */ 
+.right ul{
+    display: flex;
+    gap: 20px;
+}
+.right li{
+    list-style: none;
+}
+.right a{
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    justify-content:space-between ;
+    align-items: baseline;
+}
+.hero{
+    width: auto;
+    height: 700px;
+    background-image: url('plant.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.insider{
+    position: absolute;
+    top: 200px;
+    left: 380px;
+}
+.insider p{
+    color: #fff;
+    font-size: 20px;
+}
+.insider h1{
+    font-size: 50px;
+}
+.insider button{
+    width: 150px;
+    height: 40px;
+    color: #fff;
+    background-color: lightgreen;
+    border: none;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 150px;
+
+}
+.parent {
+    display: flex;
+    /* flex-direction: column; */
+    margin-top: 100px;
+    justify-content: space-between;
+}
+.c1 i{
+    height: 3px;
+    width: 5px;
+}
+.para{
+    margin-left: 50px;
+}
+.Trend h1{
+    /* margin-left: 700px; */
+    text-align: center;
+
+    /* margin: 0 auto; */
+}
+.c3 h1{
+    margin-top: 35px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+/* .card-body h1{
+margin-top: 400px;
+margin-right: 50px;
+} */
+ .cards i{
+    position: absolute;
+ }
+ /* .discount img{
+    /* background-size: cover; */
+    /* width: 1500px;
+    height: 500px;
+    margin-top: 100px;
+ }  */
+ 
+ .discount button{
+    width: 150px;
+    height: 40px;
+    color: #fff;
+    background-color: lightgreen;
+    border: none;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 50px;
+
+}
+.discount{
+    width: auto;
+    height: 400px;
+    background-image: url('discount.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-top: 80px;
+}
+.content{
+        color:white;
+        margin-top: 80px;
+        position: absolute;
+        text-align: center;
+        margin-left: 350px;
+
+}
+.categary h1{
+    text-align: center;
+    margin-top: 100px;
+}
+.card1 img{
+    height: 200px;
+    width: 200px;
+}
+.card2 img{
+    height: 200px;
+    width: 200px;
+}
+.card3 img{
+    height: 200px;
+    width: 200px;
+}
+
+.cateogary{
+display: flex;
+justify-content: space-around;
+margin-top: 50px;
+}
+.Wrapper{
+    margin-top: 100px;
+    background-color: bisque;
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+}
+.profile img{
+    height: 500px;
+    width: 500px;
+    margin-left: 100px;
+}
+.bot{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+.Wrapper1{
+    background-color: #efedaf;
+    height: 1400px;
+}
+.feed1{
+    padding-left: 50px;
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    margin-left: 100px;
+    justify-content: center;
+    margin-top: 50px;
+}
+.feed1 img{
+    border-radius: 30px;
+    height: 40px;
+}
+.feed1 p2{
+    flex-direction: column;
+}
+.feed2{
+    padding-left: 50px;
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    margin-left: 800px;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+/* .feed2{
+    padding-left: 100px;
+    background-color: #f1ee8e;
+
+} */
+.feed2 img{
+    border-radius: 30px;
+    height: 40px;
+}
+.feed2 p2{
+    flex-direction: row;
+}
+.foot{
+    width: auto;
+    height: 350px;
+    background-image: url('pot.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-top: 80px;
+}
+.foot1{
+        color:black;
+        margin-top: 80px;
+        position: absolute;
+        text-align: center;
+        margin-left: 370px;
+
+}
+.foot button{
+    width: 150px;
+    height: 40px;
+    color: #0f0f0f;
+    background-color: lightgreen;
+    border: none;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 0px;
+
+}
+
+@media (max-width: 1023px) {
+    .navbar {
+        padding: 15px 30px;
+    }
+
+    .navbar .right ul {
+        gap: 15px;
+    }
+
+    .cards, .cateogary, .bot {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .Wrapper, .Wrapper1 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .discount .content {
+        text-align: center;
+        padding: 20px;
+    }
+}
+
+/* Mobile (up to 767px) */
+@media (max-width: 767px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px;
+    }
+
+    .navbar .right ul {
+        flex-direction: column;
+        gap: 10px;
+        padding: 0;
+    }
+
+    .hero {
+        padding: 20px;
+        /* text-align: center; */
+        margin-right: 100px;
+    }
+
+    .hero h1 {
+        font-size: 22px;
+    }
+
+    .parent {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .cards, .cateogary, .bot {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Wrapper, .Wrapper1 {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .foot {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .foot button {
+        width: 100%;
+    }
+}
+
+
+
